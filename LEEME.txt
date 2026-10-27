@@ -1,0 +1,33 @@
+ANUBIS MAG MISSIONS V1.0 — PROTOTIPO LOCAL
+
+INICIO
+1. Publica el contenido de esta carpeta en GitHub Pages o servidor HTTPS.
+2. Abre index.html desde la URL HTTPS en Android o iPhone.
+3. Crea el PIN administrador. Registra jugadores, operación y misiones.
+4. Coloca objetivos en el plano y utiliza los QR generados para cada misión.
+5. Guarda respaldos JSON regularmente.
+
+FUNCIONES INCLUIDAS
+- Administrador con PIN LOCAL (no seguro para producción).
+- Jugadores con código y clave LOCAL.
+- Guiones editables, importación .txt, pegado manual de Word/PDF.
+- Objetivos visibles, desbloqueables y secretos.
+- Plano personalizable con imagen y marcadores.
+- QR offline para hasta 60 misiones y validación manual de código.
+- Escaneo QR con cámara solamente en navegadores que soporten BarcodeDetector.
+- PWA con caché básico, uso local en un dispositivo y respaldo JSON.
+
+PENDIENTE / LIMITACIONES
+- NO existe servidor ni sincronización entre dispositivos.
+- Los datos locales y claves NO están cifrados; no usar con secretos reales.
+- El QR personal de inicio de sesión NO está implementado.
+- La importación automática de DOCX/PDF NO está implementada.
+- No hay GPS ni realidad aumentada en esta entrega.
+- Un objetivo completado queda completado globalmente en esta copia local.
+- QR son códigos prediseñados únicos por ranura; máximo 60 misiones creadas por instalación.
+- El acceso por cámara depende del navegador; el código manual es alternativa.
+- Evita eliminar los datos del navegador sin antes descargar respaldo.
+- Para pruebas entre teléfonos, cada dispositivo tendría una copia independiente.
+
+SEGURIDAD EN JUEGO
+Consultar la aplicación solamente en zonas seguras y con la réplica asegurada.
